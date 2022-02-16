@@ -1,3 +1,38 @@
+*{
+    box-sizing: border-box;
+}
 .width-img{
-    width: 300px;
+    width: 100%;
+}
+.conteneur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloc3{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bloc2{
+    width: 33%;
+}
+.bloc1{
+    width: 15%;
+}
+.width-select{
+    padding: 10px;
+}
+option{
+    background-color: rgb(41, 173, 96);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.reserved{
+    color: white;
+    background-color: black;
+    padding: 10px;
 }
