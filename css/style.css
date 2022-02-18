@@ -9,6 +9,9 @@
     justify-content: space-around;
     align-items: center;
 }
+.bloc-p{
+    padding: 20px;    
+}
 .bloc3{
     width: 20%;
     display: flex;
@@ -80,7 +83,6 @@ h2{
     margin-bottom: 20px;
 }
 .button-margin-left{
-    margin-left: 250px;
     background-color:  rgba(139, 201, 160, 0.877);
     border: none;
     margin-top: 20px;
@@ -126,4 +128,56 @@ li{
     text-align: center;
     margin: 0;
     font-weight: bold;
+}
+@media screen and (min-width: 375px) and (max-width: 950px){
+  
+    .bloc1{
+        display: none;
+    }
+    .conteneur{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bloc2{
+        width: 100%;
+        margin-bottom:  30px;
+    }
+    .contact{
+        padding: 20px;
+    }
+    .dropdown{
+        display: none;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .bloc-display{
+        display: none;
+    }
+    .bloc{
+        width: 100%;
+        padding: 10px;
+    }
+    section{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .conteneur-footer{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .newsletter{
+        margin: auto;
+    }
+   
 }
