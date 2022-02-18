@@ -89,4 +89,41 @@ h2{
     width: 50%;
     text-align: center;
 }
-
+.reseaux{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.width-icon-reseaux{
+    width: 30px;
+}
+footer{
+    background-color: rgb(225 237 239);
+}
+.footer-btn{
+    background-color:  rgba(139, 201, 160, 0.877);
+    border: none;
+}
+.conteneur-footer{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+.adresse, .liens-utiles{
+    text-align: center;
+}
+.width-icon{
+    width: 15px;
+}
+.copyright{
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
