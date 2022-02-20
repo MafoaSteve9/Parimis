@@ -63,13 +63,7 @@ img{
     color: rgba(139, 201, 160, 0.877);
     margin-bottom: 30px;
 }
-.presentation{
-    text-align: center;
-    margin-left: 200x;
-    border-bottom: solid rgb(64, 71, 69);
-    
-   
-}
+
 section{
     display: flex;
     width: 1000px;
